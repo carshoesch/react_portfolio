@@ -1,0 +1,33 @@
+.projectsHeadline {
+    margin-bottom: 40px;
+}
+.navItem {
+    .navLink {
+        border: none !important;
+
+        &::before {
+            border-radius: 50px;
+        }
+    }
+}
+
+
+.skill-bx {
+    background-color: #151515;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin: -60px;
+  }
+.item {
+    svg {
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        margin-bottom: 8px;
+    }
+}
+
+.skillSlider {
+    display: flex;
+}

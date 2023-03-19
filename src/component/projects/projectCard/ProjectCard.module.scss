@@ -1,0 +1,33 @@
+.projImgBox {
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
+
+    .linkWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+
+        a {
+            font-size: 24px;
+            color: #fff;
+            font-style: italic;
+
+            &:hover {
+                color: blue;
+            }
+        }
+
+        .noLink {
+            opacity: .5;
+            font-size: 24px;
+
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+}

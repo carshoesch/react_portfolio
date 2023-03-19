@@ -1,0 +1,24 @@
+.skillsHeadline {
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.skill-bx {
+    background-color: #151515;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin: -60px;
+  }
+.item {
+    svg {
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        margin-bottom: 8px;
+    }
+}
+
+.skillSlider {
+    display: flex;
+}
