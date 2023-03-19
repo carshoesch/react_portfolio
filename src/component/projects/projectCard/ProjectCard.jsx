@@ -13,10 +13,10 @@ const ProjectCard = ({ imgUrl, title, description, gitLink, liveLink }) => {
                     <div className={styles.linkWrapper}>
                         {!gitLink ?
                             <span className={styles.noLink}>Git</span>
-                            : <a href={gitLink} target='_blank'>Git</a>}
+                            : <a href={gitLink} target='_blank' rel="noreferrer">Git</a>}
                         {!liveLink ?
                             <span className={styles.noLink}>Live</span>
-                            : <a href={liveLink} target='_blank'>Live</a>
+                            : <a href={liveLink} target='_blank' rel="noreferrer">Live</a>
                         }
 
 

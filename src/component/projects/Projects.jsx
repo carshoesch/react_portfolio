@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { Container, Row, Col, Tab } from "react-bootstrap";
 import TrackVisibility from 'react-on-screen';
 import ProjectCard from "./projectCard/ProjectCard";
 import colorSharp2 from "../../assets/img/color-sharp2.png"
