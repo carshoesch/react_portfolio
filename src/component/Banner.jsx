@@ -44,7 +44,7 @@ const Banner = () => {
 
         // clear the interval in case the component gets unmounted
         return () => { clearInterval(ticker) }
-    }, [text])
+    }, [text, delta])
 
 
 
